@@ -93,8 +93,8 @@ body {
     right: 0;
     bottom: 0;
     background:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url('./img/Chocolate_Fudge.jpg');
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+        url('./img/Chocolate_Fudge_Ice_Cream.jpg');
     background-size: cover;
     background-position: center;
 
