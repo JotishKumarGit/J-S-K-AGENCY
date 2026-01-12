@@ -130,8 +130,8 @@
                     <h2 class="section-title">About Us</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6">
                     <div class="about-card">
                         <h3 class="mb-4">Welcome to J S K AGENCY</h3>
                         <p class="lead">Since 2007, we have been crafting premium ice cream that brings joy to every
@@ -145,9 +145,10 @@
                         <p>With a dedicated team of 11 professionals and an annual turnover of 2 CR, we pride ourselves
                             on delivering ice cream that never compromises between indulgent taste and healthy
                             ingredients.</p>
+
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="stats-box">
                         <div class="stats-number">2007</div>
                         <div>Established</div>
@@ -165,9 +166,59 @@
                         <div>Team Members</div>
                     </div>
                 </div>
+                <!-- <div class="col-md-6">
+                    <h2 class="mb-3 section-title">Our Menus</h2>
+                    <img src="./assets/img/all-img.jpeg" height="auto" width="100%" alt="">
+                </div> -->
             </div>
         </div>
     </section>
+
+    <!-- our menu  -->
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section py-5" style="background-color: #e7f1ef;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Menu</h2>
+                <p style="color: #555; font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
+                    Click on the menu items to view full screen.
+                </p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Menu Item 1 -->
+                <div class="col-sm-6 col-md-5">
+                    <img src="./assets/img/all-img.jpeg" alt="Chocolate Delight" class="w-100 menu-img"
+                        style="cursor:pointer; border-radius:12px;" onclick="openFullScreen(this.src)">
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="col-sm-6 col-md-5">
+                    <img src="./assets/img/g-1.jpeg" alt="Strawberry Heaven" class="w-100 menu-img"
+                        style="cursor:pointer; border-radius:12px;" onclick="openFullScreen(this.src)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fullscreen Overlay -->
+    <div id="fullscreen-view" onclick="closeFullScreen()" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
+            background:rgba(0,0,0,0.95); display:flex; justify-content:center; align-items:center; z-index:9999;">
+        <img id="fullscreen-img" src="" style="max-width:100%; max-height:100%; border-radius:12px;">
+    </div>
+
+    <script>
+        function openFullScreen(src) {
+            document.getElementById('fullscreen-img').src = src;
+            document.getElementById('fullscreen-view').style.display = 'flex';
+        }
+        function closeFullScreen() {
+            document.getElementById('fullscreen-view').style.display = 'none';
+        }
+    </script>
+
+
+
 
     <!-- Products Section -->
     <section id="products" class="products-section">
@@ -427,16 +478,6 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
-                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #f3e5ab, #ffd700);">
-                            <img src="assets/img/Dark_Chocolate.webp" height="auto" width="100%" alt="">
-                        </div>
-                        <div class="gallery-overlay">
-                            <img src="assets/img/Chocolate_Fudge_Ice_Cream.jpg" height="auto" width="100%" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="gallery-item">
                         <div class="gallery-placeholder" style="background: linear-gradient(135deg, #dda0dd, #ba55d3);">
                             <img src="assets/img/Fresh_Strawberry.jpg" height="auto" width="100%" alt="">
                         </div>
@@ -458,20 +499,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item">
                         <div class="gallery-placeholder" style="background: linear-gradient(135deg, #ff6b9d, #667eea);">
-                            <img src="assets/img/Mango_Magic.jpg" height="auto" width="100%" alt="">
-                        </div>
-                        <div class="gallery-overlay">
-                            <img src="assets/img/Strawberry_Delight.webp" height="auto" width="100%" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="gallery-item">
-                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #ff6b9d, #667eea);">
                             <img src="assets/img/Strawberry_Delight.webp" height="auto" width="100%" alt="">
                         </div>
                         <div class="gallery-overlay">
-                            <img src="assets/img/Mango_Magic.jpg" height="auto" width="100%" alt="">
+                            <img src="assets/img/Strawberry_Delight.webp" height="auto" width="100%" alt="">
                         </div>
                     </div>
                 </div>
@@ -591,7 +622,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-card">
                         <div class="blog-image" style="background: linear-gradient(135deg, #4ecdc4, #44a08d);">
-                            <img src="assets/img/Dark_Chocolate.webp" height="245px" width="100%" alt="">
+                            <img src="assets/img/Chocolate_Fudge_Ice_Cream.jpg" height="245px" width="100%" alt="">
                         </div>
                         <div class="blog-content">
                             <p class="blog-date"><i class="far fa-calendar"></i> December 10, 2024</p>
