@@ -42,10 +42,10 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.php">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
@@ -60,22 +60,22 @@
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item dropdown-toggle" href="#">Kulfi</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="Badam-Kulfi.html">Badam Kulfi</a></li>
-                                    <li><a class="dropdown-item" href="Mango-Kulfi.html">Mango Kulfi</a></li>
-                                    <li><a class="dropdown-item" href="Kesar-Pista-Kulfi.html">Kesar Pista Kulfi</a>
+                                    <li><a class="dropdown-item" href="Badam-Kulfi.php">Badam Kulfi</a></li>
+                                    <li><a class="dropdown-item" href="Mango-Kulfi.php">Mango Kulfi</a></li>
+                                    <li><a class="dropdown-item" href="Kesar-Pista-Kulfi.php">Kesar Pista Kulfi</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="Malai-Kulfi.html">Malai Kulfi</a></li>
+                                    <li><a class="dropdown-item" href="Malai-Kulfi.php">Malai Kulfi</a></li>
                                 </ul>
                             </li>
 
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item dropdown-toggle" href="#">Chocolate Ice Cream</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="Chocolate-Classic-Ice-Cream.html">Chocolate
+                                    <li><a class="dropdown-item" href="Chocolate-Classic-Ice-Cream.php">Chocolate
                                             Classic Ice Cream</a></li>
-                                    <li><a class="dropdown-item" href="Dark-Chocolate-Ice-Cream.html">Dark Chocolate Ice
+                                    <li><a class="dropdown-item" href="Dark-Chocolate-Ice-Cream.php">Dark Chocolate Ice
                                             Cream</a></li>
-                                    <li><a class="dropdown-item" href="Chocolate-Fudge-Ice-Cream.html">Chocolate Fudge
+                                    <li><a class="dropdown-item" href="Chocolate-Fudge-Ice-Cream.php">Chocolate Fudge
                                             Ice Cream</a></li>
                                 </ul>
                             </li>
@@ -83,9 +83,9 @@
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item dropdown-toggle" href="#">Strawberry Ice Cream</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="Fresh-Strawberry-Ice-Cream.html">Fresh Strawberry
+                                    <li><a class="dropdown-item" href="Fresh-Strawberry-Ice-Cream.php">Fresh Strawberry
                                             Ice Cream</a></li>
-                                    <li><a class="dropdown-item" href="Strawberry-Delight-Ice-Cream.html">Strawberry
+                                    <li><a class="dropdown-item" href="Strawberry-Delight-Ice-Cream.php">Strawberry
                                             Delight Ice Cream</a></li>
                                 </ul>
                             </li>
@@ -93,21 +93,21 @@
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item dropdown-toggle" href="#">Mango Ice Cream</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="Mango-Magic-Ice-Cream.html">Mango Magic Ice
+                                    <li><a class="dropdown-item" href="Mango-Magic-Ice-Cream.php">Mango Magic Ice
                                             Cream</a></li>
-                                    <li><a class="dropdown-item" href="Alphonso-Mango-Ice-Cream.html">Alphonso Mango Ice
+                                    <li><a class="dropdown-item" href="Alphonso-Mango-Ice-Cream.php">Alphonso Mango Ice
                                             Cream</a></li>
-                                    <li><a class="dropdown-item" href="Mango-Ice-Cream.html">Mango Ice Cream</a></li>
+                                    <li><a class="dropdown-item" href="Mango-Ice-Cream.php">Mango Ice Cream</a></li>
                                 </ul>
                             </li>
 
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link" href="gallery.php">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -117,53 +117,74 @@
 
     <!-- bread crumb -->
     <section class="py-5 text-white position-relative text-center"
-        style="background: url('./assets/img/Mango-Kulfi.jpg') center/cover no-repeat;">
+        style="background: url('./assets/img/Badam-Kulfi.webp') center/cover no-repeat;">
 
         <!-- Dark overlay -->
         <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.7);"></div>
 
         <div class="container position-relative py-5">
-            <h2 class="mb-3">Mango Kulfi</h2>
+            <h2 class="mb-3">About Us</h2>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item">
                         <a href="#" class="text-white text-decoration-none">Home</a>
                     </li>
                     <li class="breadcrumb-item active text-light" aria-current="page">
-                        Mango Kulfi
+                        About Us
                     </li>
                 </ol>
             </nav>
         </div>
     </section>
 
-    <!-- Products details   -->
-    <section class="py-5">
+    <!-- About Section -->
+    <section id="about" class="about-section">
         <div class="container">
-            <div class="row align-items-center g-4">
-                <!-- Product Image -->
-                <div class="col-md-6">
-                    <img src="assets/img/Mango-Kulfi.jpg"
-                        class="img-fluid rounded shadow animate__animated animate__fadeInLeft" alt="Mango Kulfi">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title">About Us</h2>
                 </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-card">
+                        <h3 class="mb-4">Welcome to J S K AGENCY</h3>
+                        <p class="lead">Since 2007, we have been crafting premium ice cream that brings joy to every
+                            scoop. Under the leadership of our Director, Jayakannan Santhanakrishnan, with 19 years of
+                            industry experience, we have established ourselves as a trusted name in ice cream
+                            manufacturing.</p>
+                        <p>Located in Singanallur, Coimbatore, Tamil Nadu, our state-of-the-art facility spans 4,500
+                            square feet and houses 16 advanced machines capable of producing 6 metric tons per day. Our
+                            commitment to quality is reflected in our FSSAI certification and recognition in Vikadan
+                            Paper Articles.</p>
+                        <p>With a dedicated team of 11 professionals and an annual turnover of 2 CR, we pride ourselves
+                            on delivering ice cream that never compromises between indulgent taste and healthy
+                            ingredients.</p>
 
-                <!-- Product Details -->
-                <div class="col-md-6">
-                    <div class="p-4 shadow rounded animate__animated animate__fadeInRight">
-                        <h2 class="mb-3">Mango Kulfi</h2>
-                        <p class="mb-2"><strong>Ingredients:</strong> Milk, Sugar, Mango Pulp, Cardamom</p>
-                        <p class="mb-2"><strong>Features:</strong> Creamy, Traditional, Refreshing, Summer Dessert,
-                            Natural Mango Flavor</p>
-                        <p class="mb-2"><strong>Keywords:</strong> Mango Kulfi, Indian Ice Cream, Frozen Dessert, Mango
-                            Ice Cream, Sweet Treat, Summer Special, Homemade Kulfi</p>
-                        <p class="mb-3">Experience the creamy richness of our Mango Kulfi made from fresh mangoes and
-                            traditional recipes. Perfect for a hot summer day or a sweet ending to your meal.</p>
-                        <a href="#" class="btn btn-primary shadow-sm" data-bs-toggle="modal"
-                            data-bs-target="#enquiryModal">
-                            Enquiry Now
-                        </a>
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <div class="stats-box">
+                        <div class="stats-number">2007</div>
+                        <div>Established</div>
+                    </div>
+                    <div class="stats-box">
+                        <div class="stats-number">19+</div>
+                        <div>Years Experience</div>
+                    </div>
+                    <div class="stats-box">
+                        <div class="stats-number">6</div>
+                        <div>Metric Tons/Day</div>
+                    </div>
+                    <div class="stats-box">
+                        <div class="stats-number">11</div>
+                        <div>Team Members</div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6">
+                    <h2 class="mb-3 section-title">Our Menus</h2>
+                    <img src="./assets/img/all-img.jpeg" height="auto" width="100%" alt="">
+                </div> -->
             </div>
         </div>
     </section>
